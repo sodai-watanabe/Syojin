@@ -14,6 +14,7 @@ int main () {
     // 0の親はいないので、index=0には0を入れておく
     parent.push_back(0);
 
+    // そのindexの親の番号が順番に与えられる。実質親子関係が与えられている。
     for (int i=0; i<n-1; i++) {
         int p;
         cin >> p;
