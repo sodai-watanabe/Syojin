@@ -1,8 +1,9 @@
 // https://algo-method.com/tasks/370
 // lower_bound
 // 疑問：右から狭めるパターンはなぜ無限ループになるのか
+// ans:基本は左から狭めうよう。lowerかupperは(while内の不等式の決め方)配列の図を書くとわかりやすい。
 
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main () {
