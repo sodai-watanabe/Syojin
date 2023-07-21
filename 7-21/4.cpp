@@ -1,3 +1,6 @@
+// https://algo-method.com/tasks/329
+// 2次元dp
+// 教訓：配列外参照を避ける。例外条件を書くのではなく、可能な条件で場合分けした方がシンプル。
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -9,7 +12,7 @@ int main () {
 
     dp[0][0]=1;
 
-    for (int i=0; i<N; i++) {
+    for (int i=0; i<N; i++) {  // 可能な条件で場合分け。
         for (int j=0; j<N; j++) {
 
             if (i-1 >= 0) {
