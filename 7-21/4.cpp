@@ -11,15 +11,23 @@ int main () {
 
     for (int i=0; i<N; i++) {
         for (int j=0; j<N; j++) {
-            if (i==0 && j==0) continue;
-            
-            if (j==0) {
-                dp[i][j]=dp[i-1][j];
-            } else if (i==0) {
-                dp[i][j]=dp[i][j-1];
-            } else {
-                dp[i][j]=dp[i-1][j]+dp[i][j-1];
+
+            if (i-1 >= 0) {
+                dp[i][j]+=dp[i-1][j];  // 上から来る場合
             }
+            if (j-1 >= 0) {
+                dp[i][j]+=dp[i][j-1];  // 左から来る場合
+            }
+
+            // if (i==0 && j==0) continue;
+
+            // if (j==0) {
+            //     dp[i][j]=dp[i-1][j];
+            // } else if (i==0) {
+            //     dp[i][j]=dp[i][j-1];
+            // } else {
+            //     dp[i][j]=dp[i-1][j]+dp[i][j-1];
+            // }
         }
     }
 
