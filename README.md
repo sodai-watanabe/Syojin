@@ -6,7 +6,7 @@
 - ~~8月中に「アルゴリズムと設計技法」をマスター。https://algo-method.com/courses/27~~
 - ~~9月中に「グラフアルゴリズム」をマスター。https://algo-method.com/courses/19~~
 - その後、苦手な部分を補う。
-- 8月中atcoderのC問題を練習。
+- 8月中atcoderのAC済みC問題で全て説明できるようにする！
 
 ### rule
 - 特別な事情がない限り、毎日最低1問解く。
