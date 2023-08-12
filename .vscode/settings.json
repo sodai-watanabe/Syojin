@@ -4,6 +4,9 @@
         "iostream": "cpp",
         "ostream": "cpp",
         "set": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "__bit_reference": "cpp",
+        "deque": "cpp",
+        "valarray": "cpp"
     }
 }
