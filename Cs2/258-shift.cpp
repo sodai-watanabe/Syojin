@@ -1,4 +1,4 @@
-// shift 要復習　9/21
+// shift 要復習　9/21,12/24→ok
 // 文字列のshift
 // 問題：文字列Sに対して、query1はx回shift、query2でその時点のSのx番目の文字を出力。
 // 入力:N Q
