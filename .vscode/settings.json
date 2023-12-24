@@ -7,6 +7,12 @@
         "iosfwd": "cpp",
         "__bit_reference": "cpp",
         "deque": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "map": "cpp",
+        "queue": "cpp",
+        "string": "cpp",
+        "__split_buffer": "cpp",
+        "list": "cpp",
+        "random": "cpp"
     }
 }

@@ -1,4 +1,4 @@
-// multiset query 要復習　9/24
+// multiset query 要復習　9/24,12/24
 // map<ll,ll>で要素とその個数を管理して実装したが、なぜかRE。
 // query1:xを追加  query2:xをc回削除。xがなくなった時点で削除は終了。 query3:要素のmaxとminの差を出力
 // 教訓：multisetの要素削除(一つだけ) → st.erase(st.find(x))とする。
