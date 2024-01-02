@@ -6,6 +6,7 @@
 // 教訓：文字列の両脇から中心へ攻めたい → for (int l=0, r=N-1; l<r; l++,r--){}
 // 教訓：1e18 → 10^18
 // 教訓:rotate問題 → originalのcopyを用意。copyを変更してrotateする。基本的にoriginalはいじらない。
+// 復習 2024/1/2
 
 #include <bits/stdc++.h>
 using namespace std;
