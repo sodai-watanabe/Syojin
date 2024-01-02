@@ -1,6 +1,6 @@
 // 辞書順で一つ前の列を出力 9/18
 // 教訓：prev_permutation(P.begin(),P.end()) → 辞書順で一つ前のものがPに格納される。
-
+// 復習:2024/1/2
 #include <bits/stdc++.h>
 using namespace std;
 
