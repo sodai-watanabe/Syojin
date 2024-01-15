@@ -1,5 +1,6 @@
 // Dango
 // 速やかに解けた。8/11
+// 復習　1/15
 
 #include <bits/stdc++.h>
 using namespace std;
