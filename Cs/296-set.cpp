@@ -2,6 +2,7 @@
 // A[i]-A[j]=Xなるi,jペアは存在するかを判定する。
 // 教訓：2変数問題は移項して1変数として解く。
 // 教訓：存在判定はsetが便利
+// 復習：1/15ok
 
 #include <bits/stdc++.h>
 using namespace std;
