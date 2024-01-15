@@ -1,6 +1,7 @@
 // 速やかにACした 8/20
 // 分かりやすい貪欲法
 // TTの部分を見つけたら後先考えすにPCに置き換える。
+// 復習：1/15 ok
 
 #include <bits/stdc++.h>
 using namespace std;
