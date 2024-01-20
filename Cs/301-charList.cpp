@@ -2,6 +2,8 @@
 // aoki,@ok@→No
 // @は"atcoder"に含まれる文字に置き換えられる
 // 教訓：文字リストで文字数を管理。'a'→cs[0],'b'→cs[1]...ならばcs[s[i]-'a']とする。
+// 復習：1/20 方針ok
+
 #include <bits/stdc++.h>
 using namespace std;
 
