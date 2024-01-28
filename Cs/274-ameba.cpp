@@ -1,6 +1,7 @@
 // 親から二つのamebaに分裂。各amebaは何回親を辿るとameba1につくか。
 // 方針：親配列parentを持つ。子ansは親ans+1で求められる。
 // 今回は、bfsでやってしまったが上の解法であればもっとシンプルに解けた。
+// 要復習　12/29 スマートに要実装
 
 #include <bits/stdc++.h>
 using namespace std;
